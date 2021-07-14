@@ -1,0 +1,1 @@
+console.log("it is working through script.js file as well ")
