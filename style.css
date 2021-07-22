@@ -1,12 +1,14 @@
-:root {}
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
 
 body {
     /* background: url(images/david-pisnoy-RiGGe25WUw4-unsplash.jpg); */
     background-color: rgb(255, 251, 0);
     background-size: contain;
     box-sizing: content-box;
+    text-align: center;
     margin: 0rem;
     padding: 0rem;
+    font-family: Mulish, Arial, Helvetica, sans-serif;
 }
 
 .main {
@@ -21,7 +23,7 @@ textarea {
     width: 80vw;
     height: 15vh;
     display: block;
-    margin: auto;
+    margin: 2rem auto;
     border-radius: 1rem;
     display: block;
     outline: none;
@@ -39,18 +41,19 @@ textarea {
     border: solid 1px transparent;
     color: rgb(255, 217, 0);
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 800;
     cursor: pointer;
     transition: all .1s ease-in-out;
     border: none;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 .btn-translate:hover {
-    background-color: rgb(210, 224, 2);
+    background-color: rgb(255, 255, 255);
     border-color: rgb(255, 251, 0);
     transition: all .1s ease-in-out;
     color: rgb(0, 0, 0);
+    font-weight: 800;
 }
 
 .text-output {
@@ -58,9 +61,8 @@ textarea {
     width: 80vw;
     height: 15vh;
     display: block;
-    margin: 1rem;
     border-radius: 1rem;
     border-color: transparent;
     background-color: white;
-    margin: auto;
+    margin: 2rem auto;
 }
