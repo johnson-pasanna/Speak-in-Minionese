@@ -1,7 +1,31 @@
+:root {
+    primary-color: #6F8452;
+
+}
+
+body {
+    background: url(images/david-pisnoy-RiGGe25WUw4-unsplash.jpg);
+    background-size: contain;
+}
+
 textarea {
     padding: 1rem;
     width: 80vw;
     height: 15vh;
     display: block;
     margin: 1rem;
+    border-radius: 1rem;
+    border-color: transparent;
+}
+
+
+.text-output {
+    padding: 1rem;
+    width: 80vw;
+    height: 15vh;
+    display: block;
+    margin: 1rem;
+    border-radius: 1rem;
+    border-color: transparent;
+    background-color: white;
 }

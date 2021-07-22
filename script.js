@@ -6,22 +6,21 @@
 
 // querySelectors
 var buttonTranslate = document.querySelector(".btn-translate");
-var inputText = document.querySelector('textarea');
-console.log(inputText);
+var inputText = document.querySelector('.text-input');
+var outputText = document.querySelector('.text-output')
+
 
 
 // function
 function clickEventHandler() {
-  console.log('clicked')
-  console.log(inputText.value)
+  outputText.innerHTML = inputText.value
 }
 
 
 // Eventlistner
 buttonTranslate.addEventListener('click', clickEventHandler)
 
-console.log(buttonTranslate);
 
 
 // Conclusion: querySelector select the first element from HTML
-// click event what it does when click happens it triggers a funciton call. call back funciton
+// click event what it does is when click happens it triggers a funciton call. call back funciton
